@@ -1,4 +1,5 @@
 import { useState } from "react";
+import './Cat.css';
 
 export function Cat(){
     const[url, setUrl] = useState('');
@@ -17,6 +18,7 @@ export function Cat(){
     return (
         <div className = "cat_main">
             <img src={url} className= "cat_img"/>
+            <div></div>
             <button className = "cat_btn" onClick={fetch_data}>Generate!</button>
         </div>
     )
