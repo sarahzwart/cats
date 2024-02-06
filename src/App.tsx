@@ -4,8 +4,8 @@ import {Cat} from './Cat'
 
 function App() {
   return (
-    <div >
-      <h1 style={{textAlign: "center", color: 'pink', fontSize: "5rem", background: "grey"}}> CATS </h1>
+    <div style={{background: "white", border: "2px solid purple"}} >
+      <h1 style={{textAlign: "center", fontSize: "5rem"}} className='font-link2'> CATS </h1>
       <Cat/>
     </div>
   )

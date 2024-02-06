@@ -40,3 +40,13 @@
 .read-the-docs {
   color: #888;
 }
+
+.font-link1 {
+  font-family: 'Honk', system-ui;
+}
+
+.font-link2 {
+  font-family: 'Honk', system-ui;
+  font-family: 'Single Day', cursive;
+  color: deeppink;
+}
